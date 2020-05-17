@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Annette's Website" />
+    <meta name="description" content="Annette Vogt Homepage" />
 
     <!-- Bootstrap CSS-->
     <!--
@@ -28,264 +28,318 @@
     <title>Annette Vogt</title>
   </head>
 
-  <!-- header COLOR ANKERs -->
-  <body class="container py-3">
-    <header class="d-flex flex-column align-items-center">
-      <h1 class="col-12">Annette Josefine Vogt</h1>
-      <nav class="col-12">
-        <a href="#contact">Contact</a>
-        <a href="#biography">Biography</a>
+  <!-- header h1 und Anker-->
+  <body class="container">
+    <header
+      class="d-flex flex-column align-items-center flex-md-row justify-content-md-between align-items-md-end"
+    >
+      <h1 class="col">
+        Annette Josefine Vogt
+      </h1>
+      <nav class="col align-self-md-center justify-content-md-end">
+        <a href="#contact" class="text-info">Contact</a>
+        <a href="#biography" class="text-info">Biography</a>
       </nav>
     </header>
+    <!-- closing tag h1 und Anker -->
 
     <!-- main -->
-    <main class="mt-4 bg-light p-4">
+    <main class="bg-light m-1 p-4">
+      <div class="row border border-info rounded">
+        <!-- section photo mit photo_description -->
+        <section class="col-12 col-md-6 text-center">
+          <img
+            class="img-fluid rounded-circle px-5 my-5"
+            src="img/profil_photo_annette.jpeg"
+            alt="Eine Frau blickt lächelnd in die Kamera."
+          />
+          <div class="mb-4 text-center h6 mb-5">
+            Interessiert, ausdauernd, aufmerksam
+          </div>
+        </section>
+        <!-- closing tag section photo mit photo_description -->
+
+        <!-- section interests -->
+        <section class="col-12 col-md">
+          <section class="p-1">
+            <p class="m-2 h5">Job</p>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              WEB-DEVELOPMENT
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              HTML
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              CSS
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              JS
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Augmented Reality
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Technische Dokumentation
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              REDAKTION
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              BARRIEREFREIE MEDIEN
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              (Live)-Untertitelung
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Intralinguales Simultandolmetschen
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Dragon Speech
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Resy
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              iNews
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              FAB
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Grounded Theory
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Sprachwissenschaft
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Literaturwissenschaft
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Geschichtswissenschaft
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Didaktik
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Englisch verhandlungssicher
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Französisch gut
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Russisch Grundlagen
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Italienisch Grundlagen
+            </button>
+          </section>
+          <!--closing tag section interests -->
+
+          <section class="my-2 p-1">
+            <p class="m-2 h5">Hobbys</p>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Sport
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Lesen
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Reisen
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Musik
+            </button>
+            <button class="m-1 rounded p-2 bg-info text-light">
+              Börse
+            </button>
+          </section>
+          <!--closing tag section interests -->
+        </section>
+      </div>
+      <!--closing tag großes div row-->
+
+      <!-- section contact_s -->
+      <section
+        class="d-flex flex-column flex-md-row justify-content-md-between border border-info rounded m-5 p-3"
+        id="contact"
+      >
+        <span class="p-2 h3">Phone: 0176 / 76 339 234</span>
+        <span class="p-2 h3">Mail: mail@frauvogt.de</span>
+      </section>
+      <!-- closing tag section klammer phone und mail -->
+
+      <!-- section social_media -->
       <div class="row">
-        <!-- section als Klammer -->
-        <section class="col-12 6" id="photo_interests">
-          <!-- section photo mit photo_description -->
-          <section class="col-12" id="photo">
-            <img
-              class="img-fluid rounded-circle px-5 my-5"
-              src="img/profil_photo_annette.jpeg"
-              alt="Eine Frau blickt lächelnd in die Kamera."
-            />
-            <div id="photo_description">
-              <div class="p-1 text-justify">
-                Interessiert, ausdauernd, aufmerksam
-              </div>
-            </div>
-          </section>
-
-          <!-- section interests -->
-          <section class="col-12" id="interests">
-            <div>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="HTML"
-              >
-                <span class="tag">HTML</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="CSS"
-              >
-                <span class="tag">CSS</span>
-              </button>
-              <button class="tag m-1 rounded p-2 bg-info text-light" value="JS">
-                <span class="tag">JS</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Augmented Reality"
-              >
-                <span class="tag">Augmented Reality</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Technische Dokumentation"
-              >
-                <span class="tag">Technische Dokumentation</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Datenbanken"
-              >
-                <span class="tag">Datenbanken</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="XML"
-              >
-                <span class="tag">XML</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="XSLT"
-              >
-                <span class="tag">XSLT</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Typographie"
-              >
-                <span class="tag">Typographie</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Usability Testing"
-              >
-                <span class="tag">Usability Testing</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Interkulturelle Kommunikation"
-              >
-                <span class="tag">Interkulturelle Kommunikation</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Online-Dokumentation"
-              >
-                <span class="tag">Online-Dokumentation</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Single-Source-Management"
-              >
-                <span class="tag">Single-Source-Management</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Terminologie-Management"
-              >
-                <span class="tag">Terminologie-Management</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Barrierefreie Medien"
-              >
-                <span class="tag">Barrierefreie Medien</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Intralinguales Simultandolmetschen"
-              >
-                <span class="tag">Intralinguales Simultandolmetschen</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Dragon Speech"
-              >
-                <span class="tag">Dragon Speech</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Resy"
-              >
-                <span class="tag">Resy</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="iNews"
-              >
-                <span class="tag">iNews</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="FAB"
-              >
-                <span class="tag">FAB</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Lektorat"
-              >
-                <span class="tag">Lektorat</span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Korrektorat"
-              >
-                <span class="tag">Korrektorat</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Sprachwissenschaft"
-              >
-                <span class="tag">Sprachwissenschaft </span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Literaturwissenschaft"
-              >
-                <span class="tag">Literaturwissenschaft</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Geschichtswissenschaft"
-              >
-                <span class="tag">Geschichtswissenschaft</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Didaktik"
-              >
-                <span class="tag">Didaktik</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Investment"
-              >
-                <span class="tag">Investment</span>
-              </button>
-
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Optionsstrategien "
-              >
-                <span class="tag">Optionsstrategien </span>
-              </button>
-              <button
-                class="tag m-1 rounded p-2 bg-info text-light"
-                value="Dividendenstrategien "
-              >
-                <span class="tag">Dividendenstrategien </span>
-              </button>
-            </div>
-          </section>
-        </section>
-      </div>
-
-      <!-- section contact_tags NO GUTTERS? -->
-      <div class="row no-gutters">
         <section
-          class="col-12 d-flex flex-column align-items-center mt-4"
-          id="contact_tags"
+          class="col-12 col-md align-self-md-center m-auto p-4 text-center"
         >
-          <!-- section number -->
-          <section class="col-12 no-gutters alert alert-info" id="number">
-            <span class="px-2">Phone: 0134 / 343 445 344 43 </span>
-          </section>
-
-          <!-- section mail -->
-          <section class="col-12 no-gutters alert alert-info" id="mail">
-            <span class="px-2">Mail: mail@frauvogt.de</span>
-          </section>
-
-          <!-- section social_media -->
-          <section class="col-12" id="social_media">
-            <a
-              href="https://www.xing.com/profile/AnnetteJosefine_Vogt"
-              target="_blank"
-              rel="me"
-              ><img
-                src=""
-                width="col-12"
-                height="60"
-                alt="Annette Josefine Vogt"
-            /></a>
-          </section>
+          <a href="https://github.com/annettevogt" target="_blank" rel="me"
+            ><img
+              src="/img/github-2.svg"
+              width="col-12"
+              height="60"
+              alt="Icon GitHub"
+          /></a>
         </section>
+        <!-- closing tag section github -->
+
+        <section
+          class="col-12 col-md align-self-md-center m-auto p-6 text-center"
+        >
+          <a href="https://codepen.io/annettevogt" target="_blank" rel="me"
+            ><img
+              src="/img/codepen-icon.svg"
+              width="col-12"
+              height="60"
+              alt="Icon Codepen"
+          /></a>
+        </section>
+        <!-- closing tag section codepen -->
+
+        <section
+          class="col-12 col-md align-self-md-center text-center m-auto p-4"
+        >
+          <a
+            href="https://www.xing.com/profile/AnnetteJosefine_Vogt"
+            target="_blank"
+            rel="me"
+            ><img
+              src="/img/xing.svg"
+              width="col-12"
+              height="60"
+              alt="Icon Xing"
+          /></a>
+        </section>
+        <!-- closing tag section xing -->
       </div>
+      <!-- closing tag div social_media -->
 
       <!-- section bio -->
-      <div>
-        <section class="col-12" id="bio">
-          <!-- section about -->
-          <section class="col-12" id="about"></section>
-
-          <!-- section cv -->
-          <section class="col-12" id="cv"></section>
+      <section class="row border border-info rounded my-5">
+        <!-- section about -->
+        <section
+          class="col-12 col-md-6 flex-md-row align-self-md-center p-4"
+          id="biography"
+        >
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">About</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Deleniti vitae magnam tenetur id aliquam veritatis qui facilis
+                  maiores recusandae ab.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Et eaque, aliquam fugit vel ad ducimus necessitatibus! Sint
+                  quibusdam deleniti cum reprehenderit iure obcaecati nulla ab
+                  deserunt quo sed.
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
-      </div>
+        <!-- closing tag section about -->
+
+        <!-- section cv -->
+        <section
+          class="col-12 col-md flex-md-row align-self-md-center px-4"
+          id="cv"
+        >
+          <table class="table">
+            <!-- table Berufliche Stationen -->
+            <thead>
+              <tr>
+                <th scope="col">Jahr</th>
+                <th scope="col">Berufliche Stationen</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>seit Juli 2010</td>
+                <td>
+                  Barrierefreiheit: Untertitelung von Live-Sendungen,
+                  intralinguales Simultandolmetschen, Vorproduktion,
+                  Medientechnik, Corpuslinguistik <br />
+                  Lektorat<br />
+                  Mediathek <br />
+                  Mitteldeutscher Rundfunk
+                </td>
+              </tr>
+              <tr>
+                <td>April 2008 - April 2010</td>
+                <td>
+                  Volontariat Nachrichten-Redaktion Online <br />Medienpolitik
+                  <br />
+                  Auerbach Verlag
+                </td>
+              </tr>
+              <tr>
+                <td>März 2007 - März 2008</td>
+                <td>
+                  Fachangestellte Verkauf und Beratung <br />
+                  Naturkostladen Gohlis
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- closing tag table Berufliche Stationen -->
+          <table class="table">
+            <!-- table Ausbildung -->
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Ausbildung</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Oktober 2012 - April 2019</td>
+                <td>
+                  Master of Science: Technische Kommunikation <br />
+                  Donau-Universität Krems (Österreich)
+                </td>
+              </tr>
+
+              <tr>
+                <td>April 2003 - Juli 2006</td>
+                <td>
+                  Hauptstudium Staatsexamen: Literatur- und Sprachwissenschaft,
+                  Geschichtswissenschaft, Erziehungswissenschaft <br />
+                  Universität Leipzig
+                </td>
+              </tr>
+              <tr>
+                <td>August 2002 - März 2003</td>
+                <td>
+                  DAAD-Studienstipendium: Geschichtswissenschaft<br />
+                  Russische Geisteswissenschaftliche Universität Moskau, RGGU:
+                  Russland
+                </td>
+              </tr>
+              <tr>
+                <td>Okt. 2000 - Juli 2002</td>
+                <td>
+                  Grundstudium Staatsexamen: Literatur- und Sprachwissenschaft,
+                  Geschichtswissenschaft <br />
+                  Universität Konstanz
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- closing tag table Ausbildung -->
+        </section>
+        <!-- closing tag cv -->
+      </section>
+      <!-- closing tag bio -->
     </main>
+    <!-- closing tag main -->
 
     <!-- footer mit imprint -->
     <footer class="mt-5" id="imprint">
